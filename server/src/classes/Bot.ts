@@ -1,8 +1,8 @@
 import { Cell, PlayerSymbol } from "../types/Game";
 
 export class Bot {
-  private username: string = "Bot";
-  private symbol: PlayerSymbol;
+  public username: string = "Bot";
+  public symbol: PlayerSymbol;
 
   constructor(symbol: PlayerSymbol) {
     this.symbol = symbol;

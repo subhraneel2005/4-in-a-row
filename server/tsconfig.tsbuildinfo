@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/classes/Bot.ts","./src/classes/Game.ts","./src/classes/GameManager.ts","./src/classes/Player.ts","./src/lib/messages.ts","./src/server/WebSocketHandler.ts","./src/types/Game.ts","./src/types/Socket.ts","./src/utils/helper.ts"],"version":"5.8.3"}

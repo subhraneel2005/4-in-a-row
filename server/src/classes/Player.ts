@@ -2,9 +2,9 @@ import { PlayerSymbol } from "../types/Game";
 import { Socket } from "../types/Socket";
 
 export class Player {
-  private socket: Socket;
-  private username: string;
-  private symbol: PlayerSymbol;
+  public socket: Socket;
+  public username: string;
+  public symbol: PlayerSymbol;
 
   constructor(socket: Socket, username: string, symbol: PlayerSymbol) {
     this.socket = socket;
